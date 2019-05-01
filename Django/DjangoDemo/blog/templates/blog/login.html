@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+    <main class="page-content">
+        <!-- Contact Area -->
+        <div class="cr-section contact-area section-padding-lg bg-white">
+            <div class="container" style="padding-top: 120px">
+                <div class="row section-padding-top-lg">
+                    <div class="col-lg-6">
+                        <div>
+                            <h4 class="small-title">LOGIN TO MY BLOG</h4>
+                        </div>
+                        <form action="." method="POST" id="contact-form" class="karigor-form">
+                            <div class="karigor-form-inner">
+                                <div class="karigor-form-input">
+                                    <input type="text" name="name" placeholder="Please enter your name" required>
+                                </div>
+                                <div class="karigor-form-input">
+                                    <input type="text" name="password" placeholder="Please enter your password" required>
+                                </div>
+                                <div class="karigor-form-input">
+                                    <div style="width: 50%; float: left; margin: 0 auto">
+                                        <a href="index.html">
+                                            <button type="submit" class="button">
+                                                <span>Submit</span>
+                                            </button>
+                                        </a>
+                                    </div>
+                                    <div style="width: 50%; float: right; margin: 0 auto">
+                                        <button type="submit" class="button">
+                                            <span><a href="{% url 'register' %}">Register</a></span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                        <p class="form-message"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+{% endblock %}
