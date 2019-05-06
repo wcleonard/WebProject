@@ -87,13 +87,15 @@ STATIC_URL = '/static/'
 
 ###########################################################################
 # 163邮箱设置
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_USE_TLS = False
-EMAIL_USE_SSL = False
-EMAIL_HOST = 'smtp.126.com'
-EMAIL_PORT = 25
-EMAIL_HOST_USER = 'wcleonard@126.com'
-EMAIL_HOST_PASSWORD = '147258wang'
+
+# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+# EMAIL_USE_TLS = False
+# EMAIL_USE_SSL = False
+# EMAIL_HOST = 'smtp.126.com'
+# EMAIL_PORT = 25
+# EMAIL_HOST_USER = 'wcleonard@126.com'
+# EMAIL_HOST_PASSWORD = '147258wang'
+
 ###########################################################################
 
 ###########################################################################

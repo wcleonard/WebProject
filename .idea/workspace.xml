@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a98b7afe-2eee-4b1a-ad47-94c72a4f402b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoCourse/poll/static/images/mbuntu-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoCourse/poll/static/poll/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoCourse/poll/templates/poll/detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoCourse/poll/templates/poll/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoCourse/poll/templates/poll/results.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoCourse/poll/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/DjangoDemo/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/DjangoDemo/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/DjangoDemo/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/DjangoDemo/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/css/custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/css/dark-color.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/css/lightgallery.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/css/meanmenu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/css/plugins.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/css/slick.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/fonts/fontawesome-webfontd41d.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/fonts/lgd41d.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/fonts/lgd641.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/fonts/lgd641.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/fonts/lgd641.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/fonts/lgd641.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/fonts/slick.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/fonts/slick.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/fonts/slick.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/fonts/slick.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/fonts/slickd41d.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/author-image/author-image-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/author-image/author-image-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/bg/bg-image-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/bg/bg-image-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/bg/bg-image-11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/bg/bg-image-12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/bg/bg-image-13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/bg/bg-image-14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/bg/bg-image-15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/bg/bg-image-16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/bg/bg-image-17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/bg/bg-image-18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/bg/bg-image-19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/bg/bg-image-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/bg/bg-image-20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/bg/bg-image-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/bg/bg-image-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/bg/bg-image-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/bg/bg-image-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/bg/bg-image-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/bg/bg-image-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/bg/bg-image-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/blog/blog-details/blog-image-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/blog/blog-image-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/blog/blog-image-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/blog/blog-image-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/blog/blog-image-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/blog/blog-image-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/blog/blog-image-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/blog/blog-image-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/blog/blog-image-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/blog/blog-image-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/blog/thumbnail/blog-image-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/blog/thumbnail/blog-image-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/blog/thumbnail/blog-image-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/blog/thumbnail/blog-image-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/logo/logo-dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/logo/logo-light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/others/about-image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/dark/lg-size/portfolio-image-lg-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/dark/lg-size/portfolio-image-lg-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/dark/lg-size/portfolio-image-lg-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/dark/lg-size/portfolio-image-lg-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/dark/lg-size/portfolio-image-lg-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/dark/lg-size/portfolio-image-lg-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/dark/lg-size/portfolio-image-lg-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/dark/lg-size/portfolio-image-lg-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/dark/lg-size/portfolio-image-lg-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/dark/portfolio-image-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/dark/portfolio-image-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/dark/portfolio-image-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/dark/portfolio-image-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/dark/portfolio-image-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/dark/portfolio-image-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/dark/portfolio-image-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/dark/portfolio-image-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/dark/portfolio-image-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/details/portfolio-details-image-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/lg-size/portfolio-image-lg-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/lg-size/portfolio-image-lg-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/lg-size/portfolio-image-lg-11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/lg-size/portfolio-image-lg-12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/lg-size/portfolio-image-lg-13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/lg-size/portfolio-image-lg-14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/lg-size/portfolio-image-lg-15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/lg-size/portfolio-image-lg-16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/lg-size/portfolio-image-lg-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/lg-size/portfolio-image-lg-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/lg-size/portfolio-image-lg-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/lg-size/portfolio-image-lg-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/lg-size/portfolio-image-lg-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/lg-size/portfolio-image-lg-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/lg-size/portfolio-image-lg-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/lg-size/portfolio-image-lg-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/masonry/lg-size/portfolio-image-lg-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/masonry/lg-size/portfolio-image-lg-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/masonry/lg-size/portfolio-image-lg-11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/masonry/lg-size/portfolio-image-lg-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/masonry/lg-size/portfolio-image-lg-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/masonry/lg-size/portfolio-image-lg-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/masonry/lg-size/portfolio-image-lg-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/masonry/lg-size/portfolio-image-lg-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/masonry/lg-size/portfolio-image-lg-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/masonry/lg-size/portfolio-image-lg-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/masonry/lg-size/portfolio-image-lg-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/masonry/portfolio-image-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/masonry/portfolio-image-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/masonry/portfolio-image-11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/masonry/portfolio-image-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/masonry/portfolio-image-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/masonry/portfolio-image-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/masonry/portfolio-image-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/masonry/portfolio-image-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/masonry/portfolio-image-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/masonry/portfolio-image-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/masonry/portfolio-image-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/portfolio-image-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/portfolio-image-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/portfolio-image-11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/portfolio-image-12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/portfolio-image-13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/portfolio-image-14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/portfolio-image-15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/portfolio-image-16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/portfolio-image-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/portfolio-image-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/portfolio-image-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/portfolio-image-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/portfolio-image-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/portfolio-image-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/portfolio-image-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/portfolio/portfolio-image-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/slider/slider-image-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/slider/slider-image-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/team/team-member-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/team/team-member-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/team/team-member-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/video-play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/vimeo-play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/img/youtube-play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/js/ajax-mail.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/js/google-map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/js/plugins.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/js/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/js/vendor/jquery-3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/static/js/vendor/modernizr-3.6.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/templates/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/templates/blog/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/templates/blog/blog-details.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/templates/blog/blog-left-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/templates/blog/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/templates/blog/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/templates/blog/portfolio-details.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/templates/blog/portfolio.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/templates/blog/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/templates/blog/services.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/blog/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoDemo/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoTest/DjangoTest/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoTest/DjangoTest/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoTest/DjangoTest/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoTest/DjangoTest/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoTest/api/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoTest/api/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoTest/api/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoTest/api/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoTest/api/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoTest/api/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoTest/api/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoTest/api/templates/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoTest/api/templates/user/email.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoTest/api/templates/user/github_login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoTest/api/templates/user/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoTest/api/templates/user/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoTest/api/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoTest/api/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoTest/api/utils/email_check.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoTest/api/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/DjangoTest/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/leonard/leonard/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django/leonard/leonard/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/leonard/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django/leonard/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/leonard/wcp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django/leonard/wcp/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/leonard/wcp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django/leonard/wcp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/leonard/wcp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django/leonard/wcp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flask/flask_blog" beforeDir="false" afterPath="$PROJECT_DIR$/Flask/flask_blog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flask/flask_blog/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flask/flask_blog/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flask/flask_blog/app/api/posts.py" beforeDir="false" afterPath="$PROJECT_DIR$/Flask/flask_blog/app/api/posts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flask/flask_blog/app/api/users.py" beforeDir="false" afterPath="$PROJECT_DIR$/Flask/flask_blog/app/api/users.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flask/flask_blog/app/email.py" beforeDir="false" afterPath="$PROJECT_DIR$/Flask/flask_blog/app/email.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flask/flask_blog/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Flask/flask_blog/app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flask/flask_blog/flasky.py" beforeDir="false" afterPath="$PROJECT_DIR$/Flask/flask_blog/flasky.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flask/flask_blog/requirements.txt" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Django/leonard/wcp/admin.py" />
+        <option value="$PROJECT_DIR$/Django/leonard/wcp/models.py" />
+        <option value="$PROJECT_DIR$/Django/leonard/leonard/settings.py" />
+        <option value="$PROJECT_DIR$/Django/leonard/wcp/views.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="948" />
+    <option name="width" value="981" />
+    <option name="height" value="1044" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="WebProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a98b7afe-2eee-4b1a-ad47-94c72a4f402b" name="Default Changelist" comment="" />
+      <created>1557037144019</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557037144019</updated>
+      <workItem from="1557037145282" duration="2435000" />
+      <workItem from="1557039612965" duration="26000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2461000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24939467" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="1" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="bottom" id="Python Console" order="3" weight="0.3298611" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" weight="0.3298611" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Run" order="7" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.2621528" />
+      <window_info anchor="right" id="Mongo Explorer" order="0" />
+      <window_info anchor="right" id="SciView" order="1" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Django/leonard/wcp/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-240">
+          <caret column="32" lean-forward="true" selection-start-column="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/leonard/wcp/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2194">
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/leonard/wcp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="54" lean-forward="true" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/leonard/wcp/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/leonard/wcp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="124" lean-forward="true" selection-start-line="124" selection-end-line="124" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/leonard/wcp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-974">
+          <caret line="285" lean-forward="true" selection-start-line="285" selection-end-line="285" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/leonard/leonard/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-954">
+          <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -5,6 +5,8 @@ from django.utils import timezone
 
 ##################################################################################
 class Question(models.Model):
+    objects = models.Manager()
+
     question_text = models.CharField(max_length=60)
     publish_date = models.DateTimeField('date published')
 
@@ -19,6 +21,8 @@ class Question(models.Model):
 ##################################################################################
 
 class Choice(models.Model):
+    objects = models.Manager()
+
     question = models.ForeignKey(Question, on_delete=models.CASCADE)
     choice_text = models.CharField(max_length=200)
     votes = models.IntegerField(default=0)
@@ -158,6 +162,7 @@ class UserProfile(models.Model):
 
 ##################################################################################
 # 覆盖预定义的模型方法 --- 封装了一些您想要自定义的数据库行为
+
 class Blog(models.Model):
     name = models.CharField(max_length=100)
     tagLine = models.TextField()
@@ -170,18 +175,15 @@ class Blog(models.Model):
 
 
 ##################################################################################
-
-##################################################################################
 # 模型继承
-##################################################################################
-# Django有三种可能的继承方式
-#   (1)通常只想使用父类来保存您不希望为每个子模型键入的信息(这个类不会被孤立使用所以抽象基类就是你所追求的)
-#   (2)如果你是现有模型的子类（可能是完全来自另一个应用程序的东西）并希望每个模型都有自己的数据库表(多表继承是最佳选择)
-#   (3)如果您只想修改模型的Python级行为而不以任何方式更改模型字段则可以使用代理模型
-##################################################################################
+
+# (1)通常只使用父类来保存不希望为每个子模型键入的信息(这个类不会被孤立使用 --- 抽象基类)
+# (2)现有模型的子类并希望每个模型都有自己的数据库表(可能来自其它应用 --- 多表继承)
+# (3)只想修改模型的Python行为而不想以任何方式更改模型字段(代理模型)
 
 ##################################################################################
 # (1) 抽象基类
+
 class CommonInfo(models.Model):
     name = models.CharField(max_length=100)
     age = models.PositiveIntegerField()
@@ -205,12 +207,11 @@ class Student(CommonInfo):
 # 因为此类中的字段包含在每个子类中每次都具有完全相同的属性值
 
 ##################################################################################
-
-##################################################################################
 # (2)多表继承
-# 当层次结构中的每个模型都是模型本身时
-# 每个模型对应于自己的数据库表可以单独查询和创建
+
+# 当结构中的每个模型都是自身时每个模型对应的数据库表可以单独查询和创建
 # 继承关系引入子模型与其每个父模型之间的链接
+
 class Place(models.Model):
     name = models.CharField(max_length=50)
     address = models.CharField(max_length=80)
@@ -221,19 +222,19 @@ class Restaurant(Place):
     serves_pizza = models.BooleanField(default=False)
 
 
-# Meta和多表继承
+# 1.Meta和多表继承
 #   在多表继承情况下子类从其父类的Meta类继承是没有意义的
 
-# 继承和反向关系
+# 2.继承和反向关系
 #   由于多表继承使用隐式 OneToOneField链接子项和父项，因此可以从父项向下移动到子项
 #   如果要将这些类型的关系放在父模型的子类上，则 必须 在每个此类字段上指定该属性
 
-# 指定父链接字段
+# 3.指定父链接字段
 #   创建自己的属性OneToOneField并设置 parent_link=True 为指示您的字段是返回父类的链接
 ##################################################################################
-# 代理模型 --- 为原始模型创建代理
-# 可能更改默认管理器或添加新方法
+# (3)代理模型 --- 为原始模型创建代理
 
+# 可能更改默认管理器或添加新方法
 class PersonView(models.Model):
     first_name = models.CharField(max_length=30)
     last_name = models.CharField(max_length=30)
@@ -249,7 +250,8 @@ class MyPerson(Person):
 
 
 ##################################################################################
-# (3)多重继承 --- Django模型可以从多个父模型继承
+# 多重继承 --- Django模型可以从多个父模型继承
+
 # 向每个继承混合的类添加特定的额外字段或方法尽量使您的继承层次结构尽可能简单明了
 class Piece(models.Model):
     pass
@@ -267,27 +269,22 @@ class BookReview(Book, Article):
     pass
 
 ##################################################################################
-# 模型索引参考 --- Index选项
+# Model Index Options
 
 # classIndex(fields=(), name=None, db_tablespace=None, opclasses=(), condition=None)
 
-# Index.fields      =>      要求索引的字段名称的列表或元组
-
+# Index.fields      =>      索引字段名称的列表或元组
 # Index.name        =>      索引的名称
-
 # Index.tablespace  =>      用于此索引的数据库表空间的名称
+# Index.opclasses   =>      用于此索引的PostgreSQL运算符类的名称
+# Index.condition   =>      索引限制(如果表非常大并且您的查询主要针对行的子集)
 
-# Index.opclasses   =>      用于此索引的PostgreSQL运算符类的名称。如果需要自定义运算符类，则必须为索引中的每个字段提供一个
-
-# Index.condition   =>      如果表非常大并且您的查询主要针对行的子集，则将索引限制为该子集可能很有​​用
 # 将条件指定为 Q 例如 condition=Q(pages__gt=400) 索引记录超过400页
 
 ##################################################################################
 # QuerySets
-##################################################################################
-# (1) Making queries
 
-# 模型类表示数据库表，该类的实例表示数据库表中的特定记录
+# (1) Making queries --- 模型类表示数据库表(该类的实例表示数据库表中的特定记录)
 
 # from blog.models import Blog
 # b = Blog(name='Beatles Blog', tag='All the latest Beatles news.')
@@ -324,7 +321,7 @@ class BookReview(Book, Article):
 # >>> Entry.objects.all()[5:10]
 
 # >>> Entry.objects.filter(blog_id=4)
-##################################################################################
+
 # exact --- “精确”匹配
 # >>> Entry.objects.get(headline__exact="Cat bites dog")
 
@@ -348,13 +345,10 @@ class BookReview(Book, Article):
 # 删除对象 e.delete()
 
 ##################################################################################
-
 # (2) QuerySet method reference
 
 ##################################################################################
-
 # (3) Lookup expressions
 
 ##################################################################################
 
-##################################################################################
